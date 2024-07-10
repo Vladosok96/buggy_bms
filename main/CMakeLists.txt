@@ -1,2 +1,2 @@
-idf_component_register(SRCS "main.cpp"
-                    INCLUDE_DIRS ".")
+idf_component_register(SRC_DIRS "." "storage" "web" "CAN"
+                       INCLUDE_DIRS "." "storage" "web" "CAN")
